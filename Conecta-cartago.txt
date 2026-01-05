@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Conecta Cartago | Hecho en Cartago</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #2e7d32;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #1b5e20;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+            url("https://images.unsplash.com/photo-1528825871115-3581a5387919") center/cover;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .container {
+            padding: 40px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #2e7d32;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            color: #2e7d32;
+        }
+
+        .cta {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .cta a {
+            background-color: white;
+            color: #2e7d32;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .cta a:hover {
+            background-color: #e8f5e9;
+        }
+
+        footer {
+            background-color: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Conecta Cartago</h1>
+    <p>Productos, cultura y talento local</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#productos">Productos</a>
+    <a href="#experiencias">Experiencias</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section class="hero" id="inicio">
+    <h2>Hecho en Cartago, para Colombia</h2>
+    <p>Conectamos productores, artesanos y cultura local con el mundo</p>
+</section>
+
+<section class="container" id="productos">
+    <h2 class="section-title">Nuestros Productos</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Productos Artesanales</h3>
+            <p>Mermeladas, snacks, salsas y productos transformados de origen local.</p>
+        </div>
+
+        <div class="card">
+            <h3>Artesanías</h3>
+            <p>Creaciones únicas hechas por manos cartagüeñas.</p>
+        </div>
+
+        <div class="card">
+            <h3>Kits Turísticos</h3>
+            <p>Recuerdos culturales para visitantes y eventos religiosos.</p>
+        </div>
+    </div>
+</section>
+
+<section class="container" id="experiencias">
+    <h2 class="section-title">Experiencias Locales</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Tours culturales</h3>
+            <p>Rutas históricas, religiosas y culturales en Cartago.</p>
+        </div>
+
+        <div class="card">
+            <h3>Formación digital</h3>
+            <p>Aprende a vender, emprender y crecer con herramientas digitales.</p>
+        </div>
+    </div>
+</section>
+
+<section class="cta" id="contacto">
+    <h2>¿Quieres vender con nosotros?</h2>
+    <p>Escríbenos y haz parte de Conecta Cartago</p>
+    <a href="https://wa.me/57XXXXXXXXXX" target="_blank">Contactar por WhatsApp</a>
+</section>
+
+<footer>
+    <p>© 2025 Conecta Cartago | Emprendimiento local</p>
+</footer>
+
+</body>
+</html>
